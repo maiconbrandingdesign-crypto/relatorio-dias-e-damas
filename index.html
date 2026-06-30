@@ -254,12 +254,12 @@ body{background:var(--bd);font-family:'LTWave',sans-serif;color:#fff;overflow-x:
   <div class="hcont">
     <div class="eyebrow">Relatório Institucional de Marketing Digital</div>
     <h1 class="htitle">Dias e<br><span>Damas</span></h1>
-    <p class="hsub">Análise completa dos resultados de tráfego pago e orgânico — performance de anúncios, alcance nas redes sociais e evolução do público.</p>
+    <p class="hsub">Análise completa dos resultados de tráfego pago (Meta Ads e Google Ads) e orgânico — performance de anúncios, alcance nas redes sociais e evolução do público.</p>
     <div class="kpis">
-      <div class="kpi"><span class="kv" id="k1">0</span><span class="kl">Total de Leads</span></div>
+      <div class="kpi"><span class="kv" id="k1">0</span><span class="kl">Leads Meta Ads</span></div>
+      <div class="kpi"><span class="kv">34</span><span class="kl">Conversões Google Ads</span></div>
       <div class="kpi"><span class="kv">25 mil</span><span class="kl">Alcance Total</span></div>
-      <div class="kpi"><span class="kv">R$6,05</span><span class="kl">Melhor CPL</span></div>
-      <div class="kpi"><span class="kv">3 Camp.</span><span class="kl">Campanhas</span></div>
+      <div class="kpi"><span class="kv">R$0,82</span><span class="kl">CPC Médio Google</span></div>
     </div>
   </div>
   <div class="scroll-h"><span>Scroll</span><div class="sarr"></div></div>
@@ -336,6 +336,114 @@ body{background:var(--bd);font-family:'LTWave',sans-serif;color:#fff;overflow-x:
           <td><span style="background:rgba(255,255,255,.08);color:rgba(255,255,255,.4);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pd"></span>Desativado</span></td>
           <td>36</td><td>R$ 10,67</td><td>R$ 25,00/dia</td><td>R$ 383,99</td>
           <td>20.031</td><td>7.294</td><td>2,75</td><td>R$ 19,17</td><td>349</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== GOOGLE ADS ===== -->
+<div class="sep"></div>
+<section class="section">
+  <div class="seyebrow ai">Tráfego Pago · Google Ads · 30 mai a 28 jun 2026</div>
+  <h2 class="stitle ai">Performance no <span>Google Ads</span></h2>
+  <div class="sdiv ai"></div>
+
+  <div class="cgrid">
+    <div class="card ai"><span class="ci">🖱️</span><span class="cv">1.090</span><div class="cl">Cliques Totais</div><span class="bp bu">↑ Alto volume</span></div>
+    <div class="card ai"><span class="ci">💰</span><span class="cv g">R$0,82</span><div class="cl">CPC Médio</div><span class="bp bu">↑ Muito eficiente</span></div>
+    <div class="card ai"><span class="ci">🎯</span><span class="cv">34</span><div class="cl">Conversões</div><span class="bp bu">↑ Leads qualificados</span></div>
+    <div class="card ai"><span class="ci">💸</span><span class="cv">R$887</span><div class="cl">Custo Total</div><span class="bp bu">↑ 30 dias</span></div>
+    <div class="card ai"><span class="ci">📊</span><span class="cv go">R$26,07</span><div class="cl">Custo por Conversão</div><span class="bp bw">→ Monitorando</span></div>
+    <div class="card ai"><span class="ci">🔍</span><span class="cv">9.851</span><div class="cl">Impressões (Pesquisa)</div><span class="bp bu">↑ Alta visibilidade</span></div>
+    <div class="card ai"><span class="ci">📈</span><span class="cv g">10,66%</span><div class="cl">CTR Médio</div><span class="bp bu">↑ Excelente</span></div>
+    <div class="card ai"><span class="ci">🔑</span><span class="cv">11</span><div class="cl">Palavras-chave Ativas</div><span class="bp bu">↑ Qualificada</span></div>
+  </div>
+
+  <!-- GOOGLE ADS CHARTS -->
+  <div class="charts2">
+    <div class="ccard ai">
+      <div class="ctitle"><div class="dot"></div>Cliques × CPC — Evolução Diária</div>
+      <div style="position:relative;width:100%;height:260px"><canvas id="gadsTrendChart"></canvas></div>
+    </div>
+    <div class="ccard ai">
+      <div class="ctitle"><div class="dot"></div>Top Palavras-chave por Conversão</div>
+      <div style="position:relative;width:100%;height:260px"><canvas id="gadsKwChart"></canvas></div>
+    </div>
+    <div class="ccard ai cfw">
+      <div class="ctitle"><div class="dot"></div>Custo por Conversão — Palavras-chave</div>
+      <div style="position:relative;width:100%;height:240px"><canvas id="gadsCpaChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- TABLE: PALAVRAS-CHAVE -->
+  <div class="seyebrow ai">Detalhamento</div>
+  <h3 class="stitle ai" style="font-size:clamp(20px,2.5vw,32px)">Tabela de <span>Palavras-chave</span></h3>
+  <div class="sdiv ai" style="margin-bottom:0"></div>
+  <div class="tw ai">
+    <table class="dt">
+      <thead>
+        <tr>
+          <th>Palavra-chave</th><th>Status</th><th>Conversões</th><th>Custo/Conv.</th>
+          <th>Cliques</th><th>Impressões</th><th>CTR</th><th>CPC Médio</th>
+          <th>Custo</th><th>Taxa de Conv.</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="best-row">
+          <td>"apartamento em juiz de fora mg" <span class="best-badge">⭐ Maior Volume</span></td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>12,67</td><td>R$ 24,17</td><td>454</td><td>3.969</td><td>11,44%</td><td>R$ 0,67</td><td>R$ 306,20</td><td>2,79%</td>
+        </tr>
+        <tr>
+          <td>"venda de casa em juiz de fora"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>4,33</td><td>R$ 29,65</td><td>131</td><td>1.178</td><td>11,12%</td><td>R$ 0,98</td><td>R$ 128,48</td><td>3,31%</td>
+        </tr>
+        <tr>
+          <td>"apartamentos em juiz de fora"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>3,50</td><td>R$ 38,49</td><td>170</td><td>1.565</td><td>10,86%</td><td>R$ 0,79</td><td>R$ 134,70</td><td>2,06%</td>
+        </tr>
+        <tr>
+          <td>"imóveis a venda em juiz de fora"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>5,50</td><td>R$ 18,91</td><td>85</td><td>924</td><td>9,20%</td><td>R$ 1,22</td><td>R$ 103,99</td><td>6,47%</td>
+        </tr>
+        <tr class="best-row">
+          <td>"apartamentos novos em juiz de fora" <span class="best-badge">⭐ Melhor Custo</span></td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 9,28</td><td>8</td><td>108</td><td>7,41%</td><td>R$ 1,16</td><td>R$ 9,28</td><td>12,50%</td>
+        </tr>
+        <tr>
+          <td>"Comprar apartamento em Juiz de Fora"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 17,08</td><td>28</td><td>124</td><td>22,58%</td><td>R$ 0,61</td><td>R$ 17,08</td><td>3,57%</td>
+        </tr>
+        <tr>
+          <td>"apartamento em juiz de fora centro"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 13,20</td><td>13</td><td>142</td><td>9,15%</td><td>R$ 1,01</td><td>R$ 13,17</td><td>7,68%</td>
+        </tr>
+        <tr>
+          <td>"Apartamentos a venda em Juiz de Fora"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 9,31</td><td>15</td><td>96</td><td>15,63%</td><td>R$ 0,62</td><td>R$ 9,31</td><td>6,67%</td>
+        </tr>
+        <tr>
+          <td>"apartamento à venda em juiz de fora centro"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 8,12</td><td>13</td><td>78</td><td>16,67%</td><td>R$ 0,62</td><td>R$ 8,12</td><td>7,69%</td>
+        </tr>
+        <tr>
+          <td>"imóveis a venda em juiz de fora mg"</td>
+          <td><span style="background:rgba(0,230,118,.15);color:var(--green);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pr"></span>Qualificada</span></td>
+          <td>1,00</td><td>R$ 6,12</td><td>9</td><td>153</td><td>5,88%</td><td>R$ 0,68</td><td>R$ 6,12</td><td>11,11%</td>
+        </tr>
+        <tr>
+          <td>"apartamento 4 dormitórios"</td>
+          <td><span style="background:rgba(255,255,255,.08);color:rgba(255,255,255,.4);padding:3px 10px;border-radius:20px;font-size:10px;font-weight:600"><span class="pd"></span>Qualificada</span></td>
+          <td>0,00</td><td>—</td><td>7</td><td>82</td><td>8,54%</td><td>R$ 0,37</td><td>R$ 2,57</td><td>0,00%</td>
         </tr>
       </tbody>
     </table>
@@ -558,6 +666,108 @@ new Chart(document.getElementById('reachChart'),{
       y:{grid:{color:'rgba(74,158,255,0.07)'},ticks:{color:'rgba(255,255,255,0.4)',font:{size:10},callback:v=>v>=1000?Math.round(v/1000)+'k':v},border:{color:'rgba(74,158,255,0.15)'}}
     },
     animation:{duration:1200,easing:'easeOutQuart'}
+  }
+});
+
+// ===== GOOGLE ADS CHARTS =====
+
+// Cliques x CPC - evolução diária
+new Chart(document.getElementById('gadsTrendChart'),{
+  type:'line',
+  data:{
+    labels:['30/mai','02/jun','05/jun','08/jun','11/jun','14/jun','17/jun','20/jun','23/jun','26/jun','28/jun'],
+    datasets:[
+      {
+        label:'Cliques',
+        data:[35,28,68,42,48,38,30,60,38,42,75],
+        borderColor:'#2B5BFF',
+        backgroundColor:'rgba(43,91,255,0.08)',
+        borderWidth:2.5,fill:true,tension:0.4,
+        pointBackgroundColor:'#2B5BFF',pointBorderColor:'#020B2D',pointBorderWidth:1.5,pointRadius:3,pointHoverRadius:6,
+        yAxisID:'y'
+      },
+      {
+        label:'CPC médio (R$)',
+        data:[0.45,0.60,1.15,0.85,0.95,0.78,0.65,1.25,0.92,1.00,0.55],
+        borderColor:'#FF6B35',
+        backgroundColor:'rgba(255,107,53,0.06)',
+        borderWidth:2.5,fill:false,tension:0.4,
+        pointBackgroundColor:'#FF6B35',pointBorderColor:'#020B2D',pointBorderWidth:1.5,pointRadius:3,pointHoverRadius:6,
+        yAxisID:'y1'
+      }
+    ]
+  },
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    plugins:{
+      legend:{display:true,position:'top',labels:{color:'rgba(255,255,255,0.6)',font:{size:11},padding:14,boxWidth:12}},
+      tooltip:{...tip,callbacks:{label:ctx=>{
+        if(ctx.dataset.label.includes('CPC')) return `  R$ ${ctx.parsed.y.toFixed(2)}`;
+        return `  ${ctx.parsed.y} cliques`;
+      }}}
+    },
+    scales:{
+      x:{grid:{color:'rgba(74,158,255,0.05)'},ticks:{color:'rgba(255,255,255,0.4)',font:{size:9},maxRotation:0},border:{color:'rgba(74,158,255,0.15)'}},
+      y:{position:'left',grid:{color:'rgba(74,158,255,0.07)'},ticks:{color:'rgba(43,91,255,0.8)',font:{size:10}},border:{color:'rgba(74,158,255,0.15)'},title:{display:true,text:'Cliques',color:'rgba(43,91,255,0.7)',font:{size:10}}},
+      y1:{position:'right',grid:{display:false},ticks:{color:'rgba(255,107,53,0.8)',font:{size:10},callback:v=>'R$'+v.toFixed(2)},border:{display:false},title:{display:true,text:'CPC (R$)',color:'rgba(255,107,53,0.7)',font:{size:10}}}
+    },
+    animation:{duration:1300,easing:'easeOutQuart'}
+  }
+});
+
+// Top palavras-chave por conversão
+new Chart(document.getElementById('gadsKwChart'),{
+  type:'bar',
+  data:{
+    labels:['apto em juiz de fora mg','imóveis a venda em JF','venda de casa em JF','apartamentos em JF','Comprar apto em JF'],
+    datasets:[{
+      label:'Conversões',
+      data:[12.67,5.50,4.33,3.50,1.00],
+      backgroundColor:['rgba(0,230,118,0.85)','rgba(0,212,255,0.8)','rgba(0,212,255,0.7)','rgba(43,91,255,0.65)','rgba(43,91,255,0.5)'],
+      borderColor:['#00E676','#00D4FF','#00D4FF','#2B5BFF','#2B5BFF'],
+      borderWidth:1.5,borderRadius:6,borderSkipped:false
+    }]
+  },
+  options:{
+    indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{...tip,callbacks:{label:ctx=>`  ${ctx.parsed.x.toFixed(2)} conversões`}}},
+    scales:{
+      x:{grid:{color:'rgba(74,158,255,0.07)'},ticks:{color:'rgba(255,255,255,0.4)',font:{size:10}},border:{color:'rgba(74,158,255,0.15)'}},
+      y:{grid:{display:false},ticks:{color:'rgba(255,255,255,0.65)',font:{size:10}},border:{color:'rgba(74,158,255,0.15)'}}
+    },
+    animation:{duration:1200,easing:'easeOutQuart'}
+  }
+});
+
+// Custo por conversão - palavras-chave
+const gadsCpaLabels=['apartamento 4 dormitórios','imóveis a venda em JF mg','apto à venda JF centro','apto novos em JF','Apartamentos a venda JF','apto em JF centro','Comprar apto em JF','imóveis a venda em JF','apto em juiz de fora mg','venda de casa em JF','apartamentos em JF'];
+const gadsCpaValues=[0,6.12,8.12,9.28,9.31,13.20,17.08,18.91,24.17,29.65,38.49];
+const gadsCpaColors=gadsCpaValues.map(v=>
+  v===0?'rgba(255,255,255,0.15)':
+  v<=15?'rgba(0,230,118,0.8)':
+  v<=25?'rgba(0,212,255,0.75)':
+        'rgba(255,107,53,0.8)'
+);
+new Chart(document.getElementById('gadsCpaChart'),{
+  type:'bar',
+  data:{
+    labels:gadsCpaLabels,
+    datasets:[{
+      label:'Custo por Conversão (R$)',
+      data:gadsCpaValues,
+      backgroundColor:gadsCpaColors,
+      borderColor:gadsCpaColors.map(c=>c.replace(/0\.\d+/,'1')),
+      borderWidth:1,borderRadius:5,borderSkipped:false
+    }]
+  },
+  options:{
+    indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    plugins:{legend:{display:false},tooltip:{...tip,callbacks:{label:ctx=>ctx.parsed.x===0?'  Sem conversão':`  R$ ${ctx.parsed.x.toFixed(2)}`}}},
+    scales:{
+      x:{grid:{color:'rgba(74,158,255,0.07)'},ticks:{color:'rgba(255,255,255,0.4)',font:{size:10},callback:v=>'R$'+v},border:{color:'rgba(74,158,255,0.15)'}},
+      y:{grid:{display:false},ticks:{color:'rgba(255,255,255,0.6)',font:{size:9}},border:{color:'rgba(74,158,255,0.15)'}}
+    },
+    animation:{duration:1400,easing:'easeOutQuart'}
   }
 });
 
